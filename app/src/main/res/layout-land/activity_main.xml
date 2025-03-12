@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="end"
+        android:padding="8dp"
+        android:text="0"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/RButton"
+            style="@style/ButtonStyleLand"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/ACButton"
+            style="@style/ButtonStyleLand"
+            android:textSize="12sp"
+            android:text="AC" />
+
+        <Button
+            android:id="@+id/DELButton"
+            style="@style/ButtonStyleLand"
+            android:textSize="8sp"
+            android:text="DEL" />
+
+        <Button
+            android:id="@+id/PerButton"
+            style="@style/ButtonStyleLand"
+            android:text="%" />
+
+        <Button
+            android:id="@+id/DIVButton"
+            style="@style/ButtonStyleLand"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/FButton"
+            style="@style/ButtonStyleLand"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/Seven"
+            style="@style/ButtonStyleLand"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/Eight"
+            style="@style/ButtonStyleLand"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/Nine"
+            style="@style/ButtonStyleLand"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/MulB"
+            style="@style/ButtonStyleLand"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/PiButton"
+            style="@style/ButtonStyleLand"
+            android:text="Pi" />
+
+        <Button
+            android:id="@+id/Four"
+            style="@style/ButtonStyleLand"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/Five"
+            style="@style/ButtonStyleLand"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/Six"
+            style="@style/ButtonStyleLand"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/MinB"
+            style="@style/ButtonStyleLand"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/OBButton"
+            style="@style/ButtonStyleLand"
+            android:text="(" />
+
+        <Button
+            android:id="@+id/One"
+            style="@style/ButtonStyleLand"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/Two"
+            style="@style/ButtonStyleLand"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/Three"
+            style="@style/ButtonStyleLand"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/PlB"
+            style="@style/ButtonStyleLand"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/CBButton"
+            style="@style/ButtonStyleLand"
+            android:text=")" />
+
+        <Button
+            android:id="@+id/TB"
+            style="@style/ButtonStyleLand"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/Zero"
+            style="@style/ButtonStyleLand"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/Point"
+            style="@style/ButtonStyleLand"
+            android:text="." />
+
+        <Button
+            android:id="@+id/EqB"
+            style="@style/ButtonStyleLand"
+            android:text="=" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
